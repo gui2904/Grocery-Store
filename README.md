@@ -7,12 +7,15 @@ This project is not fully finished, as I'm still working on some features.
 To get started with this project, you need to install the required dependencies. Follow the steps below:
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/gui2904/Grocery-Store.git```
+   git clone https://github.com/gui2904/Grocery-Store.git
+ 
+   python -m venv myenv
+   source myenv/bin/activate
+   pip install -r requirements.txt
 
-```bash
-   python -m venv myenv```
+after that, run the server with 
 
-```bash
-   source myenv/bin/activate```
+      ```bash
+      python3 /backend/server.py
 
-```pip install -r requirements.txt```
+and open the index.html in your browser, found inside of the /iu directory

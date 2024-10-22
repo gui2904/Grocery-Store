@@ -15,7 +15,6 @@ To get started with this project, you need to install the required dependencies.
 
 after that, run the server with 
 
-      ```bash
-      python3 /backend/server.py
+```python3 /backend/server.py```
 
 and open the index.html in your browser, found inside of the /iu directory
